@@ -1,10 +1,12 @@
-# Cart 
+# Cart
+
+The cart page shows a summary of all of the products that a customer has added to the cart, a subtotal and a total price for the order, and a checkout button that directs customers to Shopify's secure checkout pages. These examples demonstrate how to add cart notes, and render the cart form.
 
  ## Table of contents
-1. [Cart notes](#cart-notes) 
-2. [Checkout form](#checkout-form) 
- 
- 
+1. [Cart notes](#cart-notes)
+2. [Checkout form](#checkout-form)
+
+
 ------
 ### <a name="cart-notes">Cart notes</a>
 You can add a text area to the cart page that allows customers to share special instructions for their order. Cart notes are submitted with a customer's order, and will appear on their order page in the Shopify admin.
@@ -15,7 +17,7 @@ You can add a text area to the cart page that allows customers to share special 
 <label for="CartNote">Special instructions</label>
 <textarea name="note" id="CartNote">{{ cart.note }}</textarea>
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=cart-notes&type=Code}">`#cart-notes`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= special-instructions&type=Code}">`#special-instructions`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= instructions&type=Code}">`#instructions`</a> 
+<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=cart-notes&type=Code}">`#cart-notes`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= special-instructions&type=Code}">`#special-instructions`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= instructions&type=Code}">`#instructions`</a>
 
 ------
 ### <a name="checkout-form">Checkout form</a>
@@ -73,4 +75,4 @@ The checkout form is what customers use to review their cart, remove any unwante
   <p>The cart is empty. <a href="/collections/all">Continue shopping</a></p>
 {%- endif -%}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=cart&type=Code}">`#cart`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= checkout&type=Code}">`#checkout`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= form&type=Code}">`#form`</a> 
+<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=cart&type=Code}">`#cart`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= checkout&type=Code}">`#checkout`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= form&type=Code}">`#form`</a>

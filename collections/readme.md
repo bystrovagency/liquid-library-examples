@@ -1,12 +1,14 @@
-# Collections 
+# Collections
+
+Products can be organized into collections to make it easier for customers to find them by a particular category. These examples demonstrate how to render a collection list, list products in a collection, set how many products are rendered per page, and display a list of vendors.
 
  ## Table of contents
-1. [Collection list](#collection-list) 
-2. [Collection page](#collection-page) 
-3. [Product limit](#product-limit) 
-4. [Vendor link list](#vendor-link-list) 
- 
- 
+1. [Collection list](#collection-list)
+2. [Collection page](#collection-page)
+3. [Product limit](#product-limit)
+4. [Vendor link list](#vendor-link-list)
+
+
 ------
 ### <a name="collection-list">Collection list</a>
 A collection list is a page that displays all the collections in a store. In this example, a featured image for the collection is displayed, as well as the collection name.
@@ -39,7 +41,7 @@ A collection list is a page that displays all the collections in a store. In thi
   {%- endfor -%}
 </ul>
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=collection-list&type=Code}">`#collection-list`</a> 
+<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=collection-list&type=Code}">`#collection-list`</a>
 
 ------
 ### <a name="collection-page">Collection page</a>
@@ -102,7 +104,7 @@ The collection page lists the products within a collection. There is a limit of 
   {%- endfor -%}
 </ul>
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=page&type=Code}">`#page`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= product-list&type=Code}">`#product-list`</a> 
+<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=page&type=Code}">`#page`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= product-list&type=Code}">`#product-list`</a>
 
 ------
 ### <a name="product-limit">Product limit</a>
@@ -116,7 +118,7 @@ A product limit sets a limit on the number of products rendered on a single page
   <-- Product 'forloop' content goes here -->
 {% endpaginate %}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=product-limit&type=Code}">`#product-limit`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= pagination&type=Code}">`#pagination`</a> 
+<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=product-limit&type=Code}">`#product-limit`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= pagination&type=Code}">`#pagination`</a>
 
 ------
 ### <a name="vendor-link-list">Vendor link list</a>
@@ -131,4 +133,4 @@ A vendor is usually the manufacturer, wholesaler, or creator of a product. This 
   {%- endfor -%}
 </ul>
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=collections&type=Code}">`#collections`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= vendor-page&type=Code}">`#vendor-page`</a> 
+<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=collections&type=Code}">`#collections`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= vendor-page&type=Code}">`#vendor-page`</a>

@@ -1,15 +1,17 @@
-# Products 
+# Products
+
+Products are the goods, digital downloads, services, and gift cards that you sell in an online store. Products can contain a lot of information, and can be rendered and sorted in a variety of ways. These examples showcase ways of rendering product data and listing products. This includes how to render metafields, SKUs, variant options, recommended products, and more.
 
  ## Table of contents
-1. [Product metafields](#product-metafields) 
-2. [Variant images](#variant-images) 
-3. [Product variant selector](#product-variant-selector) 
-4. [Recommended products by collection](#recommended-products-by-collection) 
-5. [Recommended products by tag](#recommended-products-by-tag) 
-6. [Show product SKU](#show-product-sku) 
-7. [Single variant product](#single-variant-product) 
- 
- 
+1. [Product metafields](#product-metafields)
+2. [Variant images](#variant-images)
+3. [Product variant selector](#product-variant-selector)
+4. [Recommended products by collection](#recommended-products-by-collection)
+5. [Recommended products by tag](#recommended-products-by-tag)
+6. [Show product SKU](#show-product-sku)
+7. [Single variant product](#single-variant-product)
+
+
 ------
 ### <a name="product-metafields">Product metafields</a>
 Product metafields store and display additional product information that doesn't otherwise exist in the Shopify Admin. This example demonstrates how to add washing instructions to your products and display them on the product page. See more examples of how to use product metafields in the [Shopify Help Center](https://help.shopify.com/en/themes/liquid/objects/metafield).
@@ -28,7 +30,7 @@ Product metafields store and display additional product information that doesn't
   </ul>
 {%- endif -%}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=metafields&type=Code}">`#metafields`</a> 
+<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=metafields&type=Code}">`#metafields`</a>
 
 ------
 ### <a name="variant-images">Variant images</a>
@@ -44,7 +46,7 @@ Product metafields store and display additional product information that doesn't
   <img src="{{ featured_image | img_url: '1024x' }}" alt="{{ featured_image.alt | escape }}">
 </a>
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=product-variant&type=Code}">`#product-variant`</a> 
+<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=product-variant&type=Code}">`#product-variant`</a>
 
 ------
 ### <a name="product-variant-selector">Product variant selector</a>
@@ -100,7 +102,7 @@ The product variant selector is the HTML control which a user would interact wit
   {%- endfor -%}
 {%- endunless -%}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=product-variant&type=Code}">`#product-variant`</a> 
+<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=product-variant&type=Code}">`#product-variant`</a>
 
 ------
 ### <a name="recommended-products-by-collection">Recommended products by collection</a>
@@ -221,7 +223,7 @@ A recommended products section helps to drive conversions by making it easy for 
 }
 {% endschema %}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=recommended-products&type=Code}">`#recommended-products`</a> 
+<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=recommended-products&type=Code}">`#recommended-products`</a>
 
 ------
 ### <a name="recommended-products-by-tag">Recommended products by tag</a>
@@ -345,7 +347,7 @@ A recommended products section helps to drive conversions by making it easy for 
 }
 {% endschema %}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=recommended-products&type=Code}">`#recommended-products`</a> 
+<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=recommended-products&type=Code}">`#recommended-products`</a>
 
 ------
 ### <a name="show-product-sku">Show product SKU</a>
@@ -358,7 +360,7 @@ Stock keeping units (SKUs) are used to identify products and track inventory. Yo
 {%- assign current_variant = product.selected_or_first_available_variant -%}
 <span>{{ current_variant.sku }}</span>
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=variants&type=Code}">`#variants`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= sku&type=Code}">`#sku`</a> 
+<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=variants&type=Code}">`#variants`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= sku&type=Code}">`#sku`</a>
 
 ------
 ### <a name="single-variant-product">Single variant product</a>
@@ -415,4 +417,4 @@ The product page is a detailed page for an individual product. It includes infor
 {{ form | payment_button }}
 {% endform %}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=images&type=Code}">`#images`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= page&type=Code}">`#page`</a> 
+<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=images&type=Code}">`#images`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= page&type=Code}">`#page`</a>
