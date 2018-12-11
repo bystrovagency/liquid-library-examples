@@ -1,0 +1,13 @@
+{% comment %}
+  title: Vendor link list
+  description: A vendor is usually the manufacturer, wholesaler, or creator of a product. This example creates a list of all the vendors for a store. Each vendor name links to a collection page that is filtered to show products by that particular vendor.
+  tags: #collections, #vendor-page
+  last_updated: 2018-12-05
+  step_1: Place the following code where you would like the link list to appear, such as a content page, on a blog sidebar, or on a collection page.
+{% endcomment %}
+
+<ul>
+  {%- for product_vendor in shop.vendors -%}
+    <li>{{ product_vendor | link_to_vendor }}</li>
+  {%- endfor -%}
+</ul>

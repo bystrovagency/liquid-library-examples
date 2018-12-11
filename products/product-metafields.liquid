@@ -1,0 +1,18 @@
+{% comment %}
+  title: Product metafields
+  description: Product metafields store and display additional product information that doesn't otherwise exist in the Shopify Admin. This example demonstrates how to add washing instructions to your products and display them on the product page. See more examples of how to use product metafields in the [Shopify Help Center](https://help.shopify.com/en/themes/liquid/objects/metafield).
+  tags: #metafields
+  last_updated: 2018-12-05
+  step_1: Install a [Metafields app from the Shopfiy App Store](https://apps.shopify.com/search?q=metafield).
+  step_2: Create a new metafield. For the namespace, enter `instructions`, for the key enter `wash`, and for the value enter `Cold water`.
+  step_3: Create another metafield. For the namespace enter `instructions`, for the key enter `dry` and for the value enter `Tumble dry`.
+  step_4: Add the following code to either your `product.liquid` template file, or a `product-template.liquid` section file.
+{% endcomment %}
+
+{%- if product.metafields.instructions != blank -%}
+  <ul>
+    {%- for field in product.metafields.instructions -%}
+      <li>{{ field | first }}: {{ field | last }}</li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}

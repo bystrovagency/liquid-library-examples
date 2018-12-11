@@ -1,0 +1,10 @@
+{% comment %}
+  title: Cart notes
+  description: You can add a text area to the cart page that allows customers to share special instructions for their order. Cart notes are submitted with a customer's order, and will appear on their order page in the Shopify admin.
+  tags: #cart-notes, #special-instructions, #instructions
+  last_updated: 2018-12-05
+  step_1: Add the following code to the `cart.liquid` file, inside the form. Cart notes typically appear just before the checkout button. Make sure that you keep `name="note"` so that cart notes are submitted correctly.
+{% endcomment %}
+
+<label for="CartNote">Special instructions</label>
+<textarea name="note" id="CartNote">{{ cart.note }}</textarea>

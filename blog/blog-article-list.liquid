@@ -1,0 +1,102 @@
+{% comment %}
+  title: Blog article list
+  description: Blogs posts are a standard element of most websites. This example outputs a list of blog posts associated with a specific blog. The Liquid and HTML needed to display article titles, featured images, article excerpts, article tags, authors, and dates are found in this component. Learn more about blog templates in the [Shopify Help Center](https://help.shopify.com/en/themes/development/templates/blog-liquid).
+  tags: #images, #pages
+  last_updated: 2018-12-05
+  step_1: Add the following code to the file that outputs content for the `blog` page.
+  step_2: Adjust styling on the theme's stylesheet for appropriate positioning and formatting.
+{% endcomment %}
+
+<h1>{{ page_title }}</h1>
+
+<ul>
+  {%- for article in blog.articles -%}
+    <li>
+
+      <h2>
+        <a href="{{ article.url }}">{{ article.title }}</a>
+      </h2>
+
+      {%- if section.settings.blog_show_author -%}
+        <span>
+          By {{ article.author }}
+        </span>
+      {%- endif -%}
+
+      {%- if section.settings.blog_show_date -%}
+        <span>
+          {{ article.published_at | time_tag: format: 'month_day_year' }}
+        </span>
+      {%- endif -%}
+
+      {%- if article.image -%}
+        <a href="{{ article.url }}">
+          <img src="{{ article.image | img_url: '300x300' }}" alt="">
+        </a>
+
+        <noscript>
+          <p>
+            <a href="{{ article.url }}">
+              {{ article | img_url: '455x300', scale: 2 | img_tag: article.title }}
+            </a>
+          </p>
+        </noscript>
+      {%- endif -%}
+
+      <p>
+        {%- if article.excerpt.size > 0 -%}
+          {{ article.excerpt }}
+        {%- else -%}
+          {{ article.content | strip_html | truncate: 150 }}
+        {%- endif -%}
+      </p>
+
+      {%- if article.tags.size > 0 -%}
+        <ul>
+          {{ 'blogs.article.posted_in' }}
+            <li>
+              {%- for tag in article.tags -%}
+                <a href="{{ blog.url }}/tagged/{{ tag | handle }}">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+              {%- endfor -%}
+            </li>
+        </ul>
+      {%- endif -%}
+
+      <ul>
+        <li>
+          <a href="{{ article.url }}" aria-label="Read more: {{ article.title }}">
+            Read more
+          </a>
+        </li>
+        {%- if blog.comments_enabled? and article.comments_count > 0 -%}
+          <li>
+            <a href="{{ article.url }}#comments">
+              {{ article.comments_count }}
+            </a>
+          </li>
+        {%- endif -%}
+      </ul>
+
+    </li>
+  {%- endfor -%}
+</ul>
+
+{% schema %}
+{
+  "name": "Blog pages",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "blog_show_author",
+      "label": "Show author",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_date",
+      "label": "Show date",
+      "default": true
+    }
+  ]
+}
+{% endschema %}

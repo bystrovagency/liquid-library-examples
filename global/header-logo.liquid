@@ -1,0 +1,27 @@
+{% comment %}
+  title: Header logo
+  description: A logo in the header of a website showcases the brand and usually also acts as a home navigation link. The purpose of wrapping with an `h1` only on the homepage is to ensure a top-level heading is available on that page. Subsequent landing pages should feature a unique, visible `h1` heading describing the page purpose, and therefore the logo only outputs an `h1` on the homepage of a store.
+  tags: #header, #logo, #images
+  last_updated: 2018-10-05
+  step_1: Place the following code in within the `<header>` element or container of your theme, or wherever you wish the logo to appear.
+  step_2: This code assumes you have a file called `logo.svg` in the `Assets` directory of your theme. Alternatively, you can replace this with a settings variable, define those settings in section `{% schema %}`, and allow a merchant to upload a logo image through the [theme editor](https://help.shopify.com/en/themes/development/theme-editor).
+  step_3: `itemscope`,`itemtype` and `itemprop` are defined as per the [http://schema.org](https://schema.org/Organization) specification for organizations.
+{% endcomment %}
+
+{%- if template.name == 'index' -%}
+  <h1 itemscope itemtype="http://schema.org/Organization">
+{%- else -%}
+  <div itemscope itemtype="http://schema.org/Organization">
+{%- endif -%}
+
+  <a href="/" itemprop="url">
+    <img src="{{ "logo.svg" | asset_url }}"
+      alt="{{ shop.name }}"
+      itemprop="logo">
+  </a>
+
+{%- if template.name == 'index' -%}
+  </h1>
+{%- else -%}
+  </div>
+{%- endif -%}
