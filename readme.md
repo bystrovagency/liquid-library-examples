@@ -73,7 +73,7 @@ After you add products and create collections, pages, or blog posts, you need to
 
  - <a href="https://github.com/Shopify/liquid-library-examples/tree/master/navigation#breadcrumb-navigation">Breadcrumb navigation</a>
  - <a href="https://github.com/Shopify/liquid-library-examples/tree/master/navigation#nested-navigation">Nested navigation</a>
- - <a href="https://github.com/Shopify/liquid-library-examples/tree/master/navigation#pagination-simple">Pagination simple</a>
+ - <a href="https://github.com/Shopify/liquid-library-examples/tree/master/navigation#simple-pagination">Simple pagination</a>
  - <a href="https://github.com/Shopify/liquid-library-examples/tree/master/navigation#pagination">Pagination</a>
  - <a href="https://github.com/Shopify/liquid-library-examples/tree/master/navigation#social-media-navigation">Social media navigation</a>
 </details>
