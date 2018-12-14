@@ -1,5 +1,5 @@
 # Liquid Library
-#### Build and customize themes faster with Shopify’s Liquid Library
+### Build and customize themes faster with Shopify’s Liquid Library
 
 This library provides practical code examples that illustrate best practices to build reliable and accessible themes. Use the library to learn Liquid, onboard new team members, and jump start your development on Shopify!
 
@@ -113,4 +113,4 @@ Sections allow a merchant to modify the content and layout of the different page
 We welcome feedback for existing examples, and suggestions for new ones via GitHub issue. This repository is not currently open for public contribution.
 
  ## Disclaimer
-These examples are advanced and are [not supported by Shopify](https://help.shopify.com/en/themes/customization#unsupported-customizations). Knowledge of languages such as HTML, CSS, JavaScript, and Liquid are required. We suggest hiring a [Shopify Expert](https://experts.shopify.com/services/?utm_campaign=help_docs_add_shipping_calculator) if you are not comfortable implementing this code on your own. Additionally, whenever editing Shopify themes, we highly recommend you make a copy of your theme, use version control, or have a development process in place to ensure you can rollback your changes if required.
+These examples are advanced and are [not supported by Shopify](https://help.shopify.com/en/themes/customization#unsupported-customizations). Knowledge of languages such as HTML, CSS, JavaScript, and Liquid are required. We suggest hiring a [Shopify Expert](https://experts.shopify.com/services/) if you are not comfortable implementing this code on your own. Additionally, whenever editing Shopify themes, we highly recommend you make a copy of your theme, use version control, or have a development process in place to ensure you can rollback your changes if required.
