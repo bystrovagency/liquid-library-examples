@@ -1,19 +1,19 @@
 # Global
 
-Some components of an online store exist on all pages, usually in the header and footer of a website. These are considered global components, and are often necessary and considered best practice. These examples showcase some page templates that render outside of the typical scope of products, pages, and collections, as well as header logo, social media metadata, customer links, accepted payments, and more. 
+Some components of an online store exist on all pages, usually in the header and footer of a website. These are considered global components, and are often necessary and considered best practice. These examples showcase some page templates that render outside of the typical scope of products, pages, and collections, as well as header logo, social media metadata, customer links, accepted payments, and more.
 
  ## Table of contents
-1. [404 page](#404-page) 
-2. [Copyright text](#copyright-text) 
-3. [Customer account links](#customer-account-links) 
-4. [Customer login](#customer-login) 
-5. [Header logo](#header-logo) 
-6. [OG tags](#og-tags) 
-7. [Password page](#password-page) 
-8. [Payment icons](#payment-icons) 
-9. [Skip link](#skip-link) 
- 
- 
+1. [404 page](#404-page)
+2. [Copyright text](#copyright-text)
+3. [Customer account links](#customer-account-links)
+4. [Customer login](#customer-login)
+5. [Header logo](#header-logo)
+6. [OG tags](#og-tags)
+7. [Password page](#password-page)
+8. [Payment icons](#payment-icons)
+9. [Skip link](#skip-link)
+
+
 ------
 ### <a name="404-page">404 page</a>
 A 404 page appears when a website is active, but the specific page being requested within it doesn’t exist. This example demonstrates the markup required to output a “page not found” message, and includes a search field to help a customer find what they might be looking for.
@@ -31,7 +31,7 @@ A 404 page appears when a website is active, but the specific page being request
   </form>
 </section>
 ```
-<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=404&type=Code}">`#404`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= page&type=Code}">`#page`</a> 
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=404&type=Code}">`#404`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= page&type=Code}">`#page`</a>
 
 ------
 ### <a name="copyright-text">Copyright text</a>
@@ -43,7 +43,7 @@ Copyright text is typically displayed in the footer section of an online store, 
 <p>&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: '/' }}</p>
 <p>{{ powered_by_link }}</p>
 ```
-<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=copyright&type=Code}">`#copyright`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= footer&type=Code}">`#footer`</a> 
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=copyright&type=Code}">`#copyright`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= footer&type=Code}">`#footer`</a>
 
 ------
 ### <a name="customer-account-links">Customer account links</a>
@@ -72,7 +72,7 @@ Customer account links allow customers to log into their existing account or to 
   </ul>
 {%- endif -%}
 ```
-<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=customer&type=Code}">`#customer`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= account&type=Code}">`#account`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= header&type=Code}">`#header`</a> 
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=customer&type=Code}">`#customer`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= account&type=Code}">`#account`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= header&type=Code}">`#header`</a>
 
 ------
 ### <a name="customer-login">Customer login</a>
@@ -147,7 +147,7 @@ A customer login form is used by visitors to log in to their customer account pa
 
 {%- endform -%}
 ```
-<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=login&type=Code}">`#login`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= customer&type=Code}">`#customer`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= form&type=Code}">`#form`</a> 
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=login&type=Code}">`#login`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= customer&type=Code}">`#customer`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= form&type=Code}">`#form`</a>
 
 ------
 ### <a name="header-logo">Header logo</a>
@@ -176,7 +176,7 @@ A logo in the header of a website showcases the brand and usually also acts as a
   </div>
 {%- endif -%}
 ```
-<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=header&type=Code}">`#header`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= logo&type=Code}">`#logo`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= images&type=Code}">`#images`</a> 
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=header&type=Code}">`#header`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= logo&type=Code}">`#logo`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= images&type=Code}">`#images`</a>
 
 ------
 ### <a name="og-tags">OG tags</a>
@@ -278,7 +278,7 @@ OG tags/Twitter card allows a developer to control what content renders in a pre
 <meta name="twitter:title" content="{{ og_title }}">
 <meta name="twitter:description" content="{{ og_description }}">
 ```
-<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=header&type=Code}">`#header`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= images&type=Code}">`#images`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= socialmedia&type=Code}">`#socialmedia`</a> 
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=header&type=Code}">`#header`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= images&type=Code}">`#images`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= socialmedia&type=Code}">`#socialmedia`</a>
 
 ------
 ### <a name="password-page">Password page</a>
@@ -365,7 +365,7 @@ The password page is a landing page that adds password protection to your online
 </body>
 </html>
 ```
-<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=password&type=Code}">`#password`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= page&type=Code}">`#page`</a> 
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=password&type=Code}">`#password`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= page&type=Code}">`#page`</a>
 
 ------
 ### <a name="payment-icons">Payment icons</a>
@@ -405,7 +405,7 @@ Payment icons show customers which payment methods are accepted by your online s
   </ul>
 {%- endunless -%}
 ```
-<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=payments #footer&type=Code}">`#payments #footer`</a> 
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=payments #footer&type=Code}">`#payments #footer`</a>
 
 ------
 ### <a name="skip-link">Skip link</a>
@@ -454,4 +454,4 @@ Skip links, also known as skip navigation links, are intended to make it easier 
   {{ content_for_layout }}
 </main>
 ```
-<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=accessibility&type=Code}">`#accessibility`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= skip-link&type=Code}">`#skip-link`</a> 
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=accessibility&type=Code}">`#accessibility`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= skip-link&type=Code}">`#skip-link`</a>
