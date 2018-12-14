@@ -71,7 +71,7 @@ An announcement bar allows merchants to display custom updates and promote disco
 }
 {% endschema %}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=global&type=Code}">`#global`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= promotional&type=Code}">`#promotional`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=global&type=Code}">`#global`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= promotional&type=Code}">`#promotional`</a>
 
 ------
 ### <a name="call-to-action">Call to action</a>
@@ -121,7 +121,7 @@ Call-to-action buttons allow merchants to drive visitor engagement to specific p
 }
 {% endschema %}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=home-page&type=Code}">`#home-page`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= promotional&type=Code}">`#promotional`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=home-page&type=Code}">`#home-page`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= promotional&type=Code}">`#promotional`</a>
 
 ------
 ### <a name="featured-text">Featured text</a>
@@ -160,7 +160,7 @@ This dynamic section will create an option for featured text on a store's homepa
 }
 {% endschema %}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=home-page&type=Code}">`#home-page`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= text&type=Code}">`#text`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=home-page&type=Code}">`#home-page`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= text&type=Code}">`#text`</a>
 
 ------
 ### <a name="homepage-quotes">Homepage quotes</a>
@@ -251,7 +251,7 @@ This section allows merchants to display quotes or testimonials from previous cu
 }
 {% endschema %}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=text&type=Code}">`#text`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= blocks&type=Code}">`#blocks`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=text&type=Code}">`#text`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= blocks&type=Code}">`#blocks`</a>
 
 ------
 ### <a name="logo-list">Logo list</a>
@@ -376,7 +376,7 @@ The Logo list allows merchants to upload images of logos to display company spon
 }
 {% endschema %}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=images&type=Code}">`#images`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= blocks&type=Code}">`#blocks`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=images&type=Code}">`#images`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= blocks&type=Code}">`#blocks`</a>
 
 ------
 ### <a name="password-content">Password content</a>
@@ -442,4 +442,4 @@ This section allows merchants to customize the content that appears on the passw
 }
 {% endschema %}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=password&type=Code}">`#password`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=password&type=Code}">`#password`</a>

@@ -41,7 +41,7 @@ A collection list is a page that displays all the collections in a store. In thi
   {%- endfor -%}
 </ul>
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=collection-list&type=Code}">`#collection-list`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=collection-list&type=Code}">`#collection-list`</a>
 
 ------
 ### <a name="collection-page">Collection page</a>
@@ -104,7 +104,7 @@ The collection page lists the products within a collection. There is a limit of 
   {%- endfor -%}
 </ul>
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=page&type=Code}">`#page`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= product-list&type=Code}">`#product-list`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=page&type=Code}">`#page`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= product-list&type=Code}">`#product-list`</a>
 
 ------
 ### <a name="product-limit">Product limit</a>
@@ -118,7 +118,7 @@ A product limit sets a limit on the number of products rendered on a single page
   <-- Product 'forloop' content goes here -->
 {% endpaginate %}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=product-limit&type=Code}">`#product-limit`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= pagination&type=Code}">`#pagination`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=product-limit&type=Code}">`#product-limit`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= pagination&type=Code}">`#pagination`</a>
 
 ------
 ### <a name="vendor-link-list">Vendor link list</a>
@@ -133,4 +133,4 @@ A vendor is usually the manufacturer, wholesaler, or creator of a product. This 
   {%- endfor -%}
 </ul>
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=collections&type=Code}">`#collections`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= vendor-page&type=Code}">`#vendor-page`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=collections&type=Code}">`#collections`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= vendor-page&type=Code}">`#vendor-page`</a>

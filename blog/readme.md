@@ -113,7 +113,7 @@ Blogs posts are a standard element of most websites. This example outputs a list
 }
 {% endschema %}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=images&type=Code}">`#images`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= pages&type=Code}">`#pages`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=images&type=Code}">`#images`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= pages&type=Code}">`#pages`</a>
 
 ------
 ### <a name="blog-article-page">Blog article page</a>
@@ -181,7 +181,7 @@ The blog article page is a dedicated page for an individual blog article, or pos
 }
 {% endschema %}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=page&type=Code}">`#page`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= article&type=Code}">`#article`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=page&type=Code}">`#page`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= article&type=Code}">`#article`</a>
 
 ------
 ### <a name="blog-tag-listing">Blog tag listing</a>
@@ -218,7 +218,7 @@ Tags are a type of taxonomy, and are often used to reflect the keywords of a blo
 }
 {% endschema %}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=tags&type=Code}">`#tags`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= sidebar&type=Code}">`#sidebar`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=tags&type=Code}">`#tags`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= sidebar&type=Code}">`#sidebar`</a>
 
 ------
 ### <a name="comment-list">Comment list</a>
@@ -283,7 +283,7 @@ One of the biggest benefits of hosting a blog on an online store is that the aud
   {% endif %}
 {% endif %}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=variable-tags&type=Code}">`#variable-tags`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= article&type=Code}">`#article`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= comments&type=Code}">`#comments`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=variable-tags&type=Code}">`#variable-tags`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= article&type=Code}">`#article`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= comments&type=Code}">`#comments`</a>
 
 ------
 ### <a name="featured-blog-posts">Featured blog posts</a>
@@ -425,7 +425,7 @@ Merchants will often want to display previews of recent blog articles on their h
 }
 {% endschema %}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=homepage&type=Code}">`#homepage`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= images&type=Code}">`#images`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=homepage&type=Code}">`#homepage`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= images&type=Code}">`#images`</a>
 
 ------
 ### <a name="previous-and-next-article-buttons">Previous and next article buttons</a>
@@ -461,4 +461,4 @@ Merchants may want to add an extra layer of navigation to blog posts. Previous a
 }
 {% endschema %}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=article&type=Code}">`#article`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= pagination&type=Code}">`#pagination`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= buttons&type=Code}">`#buttons`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=article&type=Code}">`#article`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= pagination&type=Code}">`#pagination`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= buttons&type=Code}">`#buttons`</a>

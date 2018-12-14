@@ -30,7 +30,7 @@ Product metafields store and display additional product information that doesn't
   </ul>
 {%- endif -%}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=metafields&type=Code}">`#metafields`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=metafields&type=Code}">`#metafields`</a>
 
 ------
 ### <a name="variant-images">Variant images</a>
@@ -46,7 +46,7 @@ Product metafields store and display additional product information that doesn't
   <img src="{{ featured_image | img_url: '1024x' }}" alt="{{ featured_image.alt | escape }}">
 </a>
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=product-variant&type=Code}">`#product-variant`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=product-variant&type=Code}">`#product-variant`</a>
 
 ------
 ### <a name="product-variant-selector">Product variant selector</a>
@@ -102,7 +102,7 @@ The product variant selector is the HTML control which a user would interact wit
   {%- endfor -%}
 {%- endunless -%}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=product-variant&type=Code}">`#product-variant`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=product-variant&type=Code}">`#product-variant`</a>
 
 ------
 ### <a name="recommended-products-by-collection">Recommended products by collection</a>
@@ -223,7 +223,7 @@ A recommended products section helps to drive conversions by making it easy for 
 }
 {% endschema %}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=recommended-products&type=Code}">`#recommended-products`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=recommended-products&type=Code}">`#recommended-products`</a>
 
 ------
 ### <a name="recommended-products-by-tag">Recommended products by tag</a>
@@ -347,7 +347,7 @@ A recommended products section helps to drive conversions by making it easy for 
 }
 {% endschema %}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=recommended-products&type=Code}">`#recommended-products`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=recommended-products&type=Code}">`#recommended-products`</a>
 
 ------
 ### <a name="show-product-sku">Show product SKU</a>
@@ -360,7 +360,7 @@ Stock keeping units (SKUs) are used to identify products and track inventory. Yo
 {%- assign current_variant = product.selected_or_first_available_variant -%}
 <span>{{ current_variant.sku }}</span>
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=variants&type=Code}">`#variants`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= sku&type=Code}">`#sku`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=variants&type=Code}">`#variants`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= sku&type=Code}">`#sku`</a>
 
 ------
 ### <a name="single-variant-product">Single variant product</a>
@@ -389,32 +389,34 @@ The product page is a detailed page for an individual product. It includes infor
 <dl>
   <dt><span class="visuallyhidden">Regular price</span></dt>
   <dd>{{ product.price | money }}</dd>
-  {% if product.vendor %}
-  <dt><span class="visuallyhidden">Vendor</span></dt>
-  <dd>{{ product.vendor }}</dd>
-  {% endif %}
+
+  {%- if product.vendor -%}
+    <dt><span class="visuallyhidden">Vendor</span></dt>
+    <dd>{{ product.vendor }}</dd>
+  {%- endif -%}
+
 </dl>
 
 <p>{{ product.description }}</p>
 
-{% assign featured_image = product.featured_image %}
+{%- assign featured_image = product.featured_image -%}
 <img src="{{ featured_image | img_url: '1024x'}}" alt="{{ featured_image.alt | escape }}">
 
 {% form 'product', product %}
 <select name="id">
-  {% for variant in product.variants %}
+  {%- for variant in product.variants -%}
     <option selected="selected" value="{{ variant.id }}"></option>
-  {% endfor %}
+  {%- endfor -%}
 </select>
 
 <button type="submit" {% unless product.available %} disabled="disabled"{% endunless %}>
-  {% if product.available %}
+  {%- if product.available -%}
     Add to Cart
-  {% else %}
+  {%- else -%}
     Sold Out
-  {% endif %}
+  {%- endif -%}
 </button>
 {{ form | payment_button }}
 {% endform %}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=images&type=Code}">`#images`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= page&type=Code}">`#page`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=images&type=Code}">`#images`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= page&type=Code}">`#page`</a>

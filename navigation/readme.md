@@ -128,7 +128,7 @@ A Breadcrumb navigation, also known as breadcrumbs, can reduce the number of act
 </nav>
 {%- endunless -%}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=linklist&type=Code}">`#linklist`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=linklist&type=Code}">`#linklist`</a>
 
 ------
 ### <a name="nested-navigation">Nested navigation</a>
@@ -177,7 +177,7 @@ A nested navigation or nested menu is a popular solution for effectively organiz
   </ul>
 </nav>
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=dropdown-menu&type=Code}">`#dropdown-menu`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= nested&type=Code}">`#nested`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= linklist&type=Code}">`#linklist`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=dropdown-menu&type=Code}">`#dropdown-menu`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= nested&type=Code}">`#nested`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= linklist&type=Code}">`#linklist`</a>
 
 ------
 ### <a name="simple-pagination">Simple pagination</a>
@@ -196,7 +196,7 @@ Pagination is an ordered numbering of pages usually located at the top or bottom
   {{ paginate | default_pagination: next: 'Older', previous: 'Newer' }}
 {%- endpaginate -%}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=collection&type=Code}">`#collection`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= products&type=Code}">`#products`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= pagination&type=Code}">`#pagination`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=collection&type=Code}">`#collection`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= products&type=Code}">`#products`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= pagination&type=Code}">`#pagination`</a>
 
 ------
 ### <a name="pagination">Pagination</a>
@@ -280,7 +280,7 @@ Pagination is an ordered numbering of pages usually located at the top or bottom
   {%- endif -%}
 {%- endpaginate -%}
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=article&type=Code}">`#article`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= blog&type=Code}">`#blog`</a> <a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q= pagination&type=Code}">`#pagination`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=article&type=Code}">`#article`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= blog&type=Code}">`#blog`</a> <a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q= pagination&type=Code}">`#pagination`</a>
 
 ------
 ### <a name="social-media-navigation">Social media navigation</a>
@@ -336,4 +336,4 @@ Social media navigation is a static menu linking to various social media account
   </li>
 </ul>
 ```
-<a href="https://github.com/Shopify/liquid-library/search?l=Liquid&q=socialmedia&type=Code}">`#socialmedia`</a>
+<a href="https://github.com/Shopify/liquid-library-examples/search?l=Liquid&q=socialmedia&type=Code}">`#socialmedia`</a>
